@@ -15,4 +15,5 @@ build:
 test:
   stage: test
   script:
-    - ./test.sh
+    - ./test-compilation.sh
+    - ./test-runtime.sh
