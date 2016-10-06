@@ -1,11 +1,7 @@
 #include <iostream>
 
-#if defined(POL) && defined(ENG)
+#if defined(POL) == defined(ENG)
     #error "Zdefiniuj albo POL lub ENG"
-#endif
-
-#if !defined(POL) && !defined(ENG)
-    #error "Zdefiniuj POL lub ENG"
 #endif
 
 #ifdef POL
