@@ -20,8 +20,8 @@
     #define FOR " for "
 #endif
 
-unsigned int sum(unsigned int a) {
-    return a ? a%10 + sum(a/10) : 0;
+unsigned int s(auto a) {
+    return a ? a % 10 + s(a / 10) : 0;
 }
 
 int main() {
@@ -35,7 +35,7 @@ int main() {
     do {
         cout << PROMPT;
         cin >> a;
-        as = sum(a);
+        as = s(a);
         if (as > ms) {
             m = a;
             ms = as;
