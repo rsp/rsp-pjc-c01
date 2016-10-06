@@ -30,3 +30,12 @@ echo OK
 echo zad3 - testing 1000 10000 100
 [ $(echo 1000 10000 100 | ./zad3 | wc -l) = 10000 ] || fail
 echo OK
+echo zad4 - testing 1 2 3
+echo 1 2 3 | ./zad4 | grep '\b3 for 3$' || fail
+echo OK
+echo zad4 - testing 111 11111 1111
+echo 111 11111 1111 | ./zad4 | grep '\b5 for 11111$' || fail
+echo OK
+echo zad4 - testing 111 9910 1199 11111 1111
+echo 111 9910 1199 11111 1111 | ./zad4 | grep '\b20 for 1199$' || fail
+echo OK
