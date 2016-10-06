@@ -6,7 +6,7 @@ int main() {
     using std::endl;
     using std::cout;
 
-    unsigned int a, b, c;
+    unsigned int a = 0, b = 0, c = 0;
     auto max = [&a, &b, &c] () {
         return (a > b ? (a > c ? a : c) : (b > c ? b : c));
     };
