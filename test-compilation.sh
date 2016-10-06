@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 fail () {
   echo TEST FAILED
   exit 1
@@ -37,4 +37,3 @@ echo zad5 should build with no defines:
 g++ -o zad5-test zad5.cc -Wall -Wfatal-errors -DENG -DPOL || fail
 echo OK
 rm zad?-test
-
