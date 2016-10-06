@@ -4,7 +4,7 @@
     #error "Zdefiniuj GETMAX i/lub GETMIN"
 #endif
 
-main() {
+int main() {
 
     using std::cin;
     using std::endl;

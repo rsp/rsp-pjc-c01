@@ -2,7 +2,7 @@
 
 #define max (a > b ? (a > c ? a : c) : (b > c ? b : c))
 
-main() {
+int main() {
 
     using std::cin;
     using std::endl;

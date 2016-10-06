@@ -24,7 +24,7 @@ unsigned int sum(unsigned int a) {
     return a ? a%10 + sum(a/10) : 0;
 }
 
-main() {
+int main() {
 
     using std::cin;
     using std::endl;
