@@ -1,7 +1,5 @@
 #include <iostream>
 
-#define max (a > b ? (a > c ? a : c) : (b > c ? b : c))
-
 int main() {
 
     using std::cin;
@@ -9,20 +7,22 @@ int main() {
     using std::cout;
 
     unsigned int a, b, c;
+    auto max = [&a, &b, &c] () {
+        return (a > b ? (a > c ? a : c) : (b > c ? b : c));
+    };
 
     cout << "Podaj 3 nieujemne liczby calkowite: ";
     cin >> a;
     cin >> b;
     cin >> c;
-
-    while (max) {
-        cout << (a == max ? '*' : ' ')
-             << (b == max ? '*' : ' ')
-             << (c == max ? '*' : ' ')
+    while (auto m = max()) {
+        cout << (a == m ? '*' : ' ')
+             << (b == m ? '*' : ' ')
+             << (c == m ? '*' : ' ')
              << endl;
-        if (a == max) a--;
-        if (b == max) b--;
-        if (c == max) c--;
+        if (a == m) a--;
+        if (b == m) b--;
+        if (c == m) c--;
     }
 
 }
