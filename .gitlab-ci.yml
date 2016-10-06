@@ -1,4 +1,4 @@
-image: gcc:6
+image: gcc
 
 build:
   stage: build

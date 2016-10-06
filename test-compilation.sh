@@ -3,6 +3,8 @@ fail () {
   echo TEST FAILED
   exit 1
 }
+echo GCC VERSION:
+gcc -v
 echo zad1 should build with no defines:
 g++ -o zad1 zad1.cc -Wall -Wfatal-errors || fail
 echo OK
