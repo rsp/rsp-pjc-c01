@@ -7,6 +7,7 @@ Zadania z PJC, ćw. 1, 2016-10-02
 [zad3](#zad3),
 [zad4](#zad4),
 [zad5](#zad5)
+[![build status](https://gitlab.com/rsp/pjc-cw1/badges/master/build.svg)](https://gitlab.com/rsp/pjc-cw1/commits/master)
 
 Usage
 -
