@@ -21,23 +21,15 @@ unsigned int s(auto a) {
 }
 
 int main() {
-
-    using std::cin;
-    using std::endl;
-    using std::cout;
-
     unsigned int a, as, m = 0, ms = 0;
-
     do {
-        cout << PROMPT;
-        cin >> a;
+        std::cout << PROMPT;
+        std::cin >> a;
         as = s(a);
         if (as > ms) {
             m = a;
             ms = as;
         }
     } while (a != 0);
-    cout << MAX << ms << FOR << m << endl;
-
+    std::cout << MAX << ms << FOR << m << std::endl;
 }
-
