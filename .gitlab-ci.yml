@@ -15,4 +15,4 @@ build:
 test:
   stage: test
   script:
-    - echo OK
+    - ./test.sh
