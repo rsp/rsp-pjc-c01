@@ -16,5 +16,4 @@ test:
   stage: test
   script:
     - ./test-compilation.sh
-    - ./test-fail.sh
     - ./test-runtime.sh
