@@ -1,4 +1,8 @@
 #!/bin/bash
+fail () {
+  echo TEST FAILED
+  exit 1
+}
 echo zad1 - bmi for 2m and 100kg should be 25
 echo 2 100 | ./zad1 | tail -1 | grep '\b25\b' || fail
 echo OK
@@ -11,15 +15,18 @@ echo OK
 echo `echo -6 -9 1e3 | ./zad2` | grep 'MAX: 1000 MIN: -9' || fail
 echo zad2 - min/max of -6, -9, 1e3 should be -9/1000
 echo OK
-echo zad3 testing 0 1 2
+echo zad3 - testing 0 1 2
 cmp <(echo 0 1 2 | ./zad3 | sed 's/.*: //') \
     <(echo '  *'; echo ' **') || fail
 echo OK
-echo zad3 testing 3 1 1
+echo zad3 - testing 3 1 1
 cmp <(echo 3 1 1 | ./zad3 | sed 's/.*: //') \
     <(echo '*  '; echo '*  '; echo '***') || fail
 echo OK
-echo zad3 testing 2 4 1
+echo zad3 - testing 2 4 1
 cmp <(echo 2 4 1 | ./zad3 | sed 's/.*: //') \
     <(echo ' * '; echo ' * '; echo '** '; echo '***') || fail
+echo OK
+echo zad3 - testing 1000 10000 100
+[ $(echo 1000 10000 100 | ./zad3 | wc -l) = 10000 ] || fail
 echo OK
