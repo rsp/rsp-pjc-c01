@@ -2,24 +2,19 @@
 
 int main() {
 
-    using std::cin;
-    using std::endl;
-    using std::cout;
-
     int l = 0, h = 1000000, a;
     char c;
 
-    cout << "Pomysl liczbe od 1 do 1 000 000" << endl;
-
+    std::cout << "Pomysl liczbe od 1 do 1 000 000" << std::endl;
     do {
         a = (l + h) / 2;
-        cout << "Czy jest to " << a << "? ";
-        cin >> c;
+        std::cout << "Czy jest to " << a << "? ";
+        std::cin >> c;
         if (c == 's') l = a;
         else if (c == 'b') h = a;
-    } while (c != 'y');
-
-    cout << "Pomyslana liczba to " << a << endl;
+        else if (c == 'y')
+            std::cout << "Pomyslana liczba to " << a << std::endl;
+    } while (std::cin && c != 'y');
 
 }
 
