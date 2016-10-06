@@ -15,15 +15,12 @@ int main() {
     cin >> a;
     cin >> b;
     cin >> c;
+
     while (auto m = max()) {
-        cout << (a == m ? '*' : ' ')
-             << (b == m ? '*' : ' ')
-             << (c == m ? '*' : ' ')
+        cout << (a == m ? --a, '*' : ' ')
+             << (b == m ? --b, '*' : ' ')
+             << (c == m ? --c, '*' : ' ')
              << endl;
-        if (a == m) a--;
-        if (b == m) b--;
-        if (c == m) c--;
     }
 
 }
-
