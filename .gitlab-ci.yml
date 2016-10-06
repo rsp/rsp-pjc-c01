@@ -1,0 +1,18 @@
+image: gcc:6
+
+build:
+  stage: build
+  script: 
+    - make
+  artifacts:
+    paths:
+      - zad1
+      - zad2
+      - zad3
+      - zad4
+      - zad5
+
+test:
+  stage: test
+  script:
+    - echo OK
