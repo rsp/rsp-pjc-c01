@@ -24,3 +24,5 @@ zad5: zad5.cc
 clean:
 	$(RM) $(ALL) *.o
 
+test: all
+	./test-all.sh
