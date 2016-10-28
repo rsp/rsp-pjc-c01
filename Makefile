@@ -29,4 +29,4 @@ clean:
 	$(RM) $(ALL) *.o
 
 test: all
-	./test-all.sh
+	CXX=$(CXX) ./test-all.sh
