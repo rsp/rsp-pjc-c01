@@ -10,7 +10,7 @@ addons:
     packages:
     - g++-6
 install:
-- "[ $CXX = g++ ] && export CXX=g++-6"
+- "[ $CXX = g++ ] && export CXX=g++-6 || true"
 script:
   - make
   - make test
