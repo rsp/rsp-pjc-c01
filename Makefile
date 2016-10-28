@@ -29,4 +29,4 @@ clean:
 	$(RM) $(ALL) *.o
 
 test: all
-	CXX=$(CXX) CXXFLAGS=$(CXXFLAGS) ./test-all.sh
+	CXX="$(CXX)" CXXFLAGS="$(CXXFLAGS)" ./test-all.sh
