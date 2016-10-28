@@ -2,7 +2,7 @@
 # https://github.com/rsp/rsp-pjc-c01
 # https://gitlab.com/rsp/rsp-pjc-c01
 
-CXXFLAGS = -g -Wall -Wfatal-errors
+CXXFLAGS = -g -std=c++14 -Wall -Wfatal-errors
 CXXFLAGS_Z02 = -DGETMAX -DGETMIN
 CXXFLAGS_Z04 = -DENG
 
