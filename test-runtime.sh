@@ -5,10 +5,6 @@ fail () {
 }
 echo =====
 echo RUNTIME TESTS
-echo make clean
-make clean
-echo make
-make
 echo z01 - bmi for 2m and 100kg should be 25
 echo 2 100 | ./z01 | tail -1 | grep '\b25\b' || fail
 echo OK
