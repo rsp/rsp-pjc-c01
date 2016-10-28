@@ -1,16 +1,24 @@
 Rafał Pocztarski
 =
-PJC C01, 2016-10-02
--
-C++ Examples with CI Tests -
-[internal project](https://github.com/rsp/rsp-internal#readme)
-
-**[z01](#z01), [z02](#z02), [z03](#z03), [z04](#z04), [z05](#z05)**
-
+[pjc-url]: https://github.com/rsp/rsp-pjc
+[github-url]: https://github.com/rsp/rsp-pjc-c01
 [travis-img]: https://travis-ci.org/rsp/rsp-pjc-c01.svg?branch=master
 [travis-url]: https://travis-ci.org/rsp/rsp-pjc-c01
 [gitlabci-img]: https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg
 [gitlabci-url]: https://gitlab.com/rsp/rsp-pjc-c01/builds
+
+[PJC][pjc-url] C01, 2016-10-02
+-
+C++ Examples with CI Tests -
+[internal project](https://github.com/rsp/rsp-internal#readme)
+
+Tested with: gcc 6.x and clang 3.8
+
+More PJC examples: https://github.com/rsp/rsp-pjc
+
+Programs
+-
+**[z01](#z01), [z02](#z02), [z03](#z03), [z04](#z04), [z05](#z05)**
 
 Repos
 -
@@ -19,8 +27,8 @@ Repos
 
 Test Results
 -
-* **Travis CI:** [![Travis CI Build Status][travis-img]][travis-url]
-* **GitLab CI:** [![GitLab CI Build Status][gitlabci-img]][gitlabci-url] (private repo, ask for access)
+* **Travis CI:** https://travis-ci.org/rsp/rsp-pjc-c01 [![Travis CI Build Status][travis-img]][travis-url]
+* **GitLab CI:** https://gitlab.com/rsp/rsp-pjc-c01/builds [![GitLab CI Build Status][gitlabci-img]][gitlabci-url] (private repo, ask for access)
 
 Usage
 -
