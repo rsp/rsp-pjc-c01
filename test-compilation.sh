@@ -43,3 +43,4 @@ echo z05 should build with no defines:
 $CXX -o z05-test z05.cc -Wall -Wfatal-errors -DENG -DPOL || fail
 echo OK
 rm -v z0?-test
+echo COMPILATION TESTS PASSED

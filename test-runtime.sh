@@ -3,6 +3,8 @@ fail () {
   echo TEST FAILED
   exit 1
 }
+echo =====
+echo RUNTIME TESTS
 echo make clean
 make clean
 echo make
@@ -43,3 +45,4 @@ echo OK
 echo z04 - testing 111 9910 1199 11111 1111
 echo 111 9910 1199 11111 1111 | ./z04 | grep '\b20 for 1199$' || fail
 echo OK
+echo RUNTIME TESTS PASSED

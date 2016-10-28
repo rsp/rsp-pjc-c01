@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo =====
+echo Z01 TEST
+
 [ -n "$1" ] && m=$1 || m=123456
 
 zi=$(mktemp -u)
