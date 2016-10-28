@@ -1,15 +1,6 @@
-sudo: false
 language: cpp
 compiler:
-  - gcc
-install:
-- if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
-addons:
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - gcc-6
+  - gcc-6
 script:
   - make
   - make test
