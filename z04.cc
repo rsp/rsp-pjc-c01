@@ -16,7 +16,7 @@
     #define FOR " for "
 #endif
 
-static unsigned int s(auto a) {
+unsigned s(auto a) {
     return a ? a % 10 + s(a / 10) : 0;
 }
 
