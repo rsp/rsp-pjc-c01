@@ -9,7 +9,8 @@ PJC C01, 2016-10-02:
 [zad3](#zad3),
 [zad4](#zad4),
 [zad5](#zad5)
-[![build status](https://gitlab.com/rsp/pjc-cw1/badges/master/build.svg)](https://gitlab.com/rsp/pjc-cw1/builds)
+
+[![GitLab CI Build Status](https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg)](https://gitlab.com/rsp/rsp-pjc-c01/builds)
 
 Usage
 -
