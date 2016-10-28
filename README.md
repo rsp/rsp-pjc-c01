@@ -12,10 +12,17 @@ PJC C01, 2016-10-02:
 * **GitHub:** https://github.com/rsp/rsp-pjc-c01
 * **GitLab:** https://gitlab.com/rsp/rsp-pjc-c01 (private repo, ask for access)
 
-Test Reults
+Repos
 -
-* **Travis CI:**
-* **GitLab CI:** [![GitLab CI Build Status](https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg)](https://gitlab.com/rsp/rsp-pjc-c01/builds) (private repo, ask for access)
+[travis-img]: https://travis-ci.org/rsp/rsp-pjc-c01.svg?branch=master
+[travis-url]: https://travis-ci.org/rsp/rsp-pjc-c01
+[gitlabci-img]: https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg
+[gitlabci-url]: https://gitlab.com/rsp/rsp-pjc-c01/builds
+
+Test Results
+-
+* **Travis CI:** [![Travis CI Build Status][travis-img]][travis-url]
+* **GitLab CI:** [![GitLab CI Build Status][gitlab-ci]][gitlabci-url] (private repo, ask for access)
 
 Usage
 -
