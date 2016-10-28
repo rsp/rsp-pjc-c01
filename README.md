@@ -1,16 +1,22 @@
 Rafał Pocztarski
 =
-C++ Examples with CI Tests
+C++ Examples with CI Tests -
+[internal project](https://github.com/rsp/rsp-internal#readme)
+
+* https://github.com/rsp/rsp-pjc-c01 (GitHub)
+* https://gitlab.com/rsp/rsp-pjc-c01 (GitLab - private)
 
 PJC C01, 2016-10-02:
-
 [zad1](#zad1),
 [zad2](#zad2),
 [zad3](#zad3),
 [zad4](#zad4),
 [zad5](#zad5)
 
-[![GitLab CI Build Status](https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg)](https://gitlab.com/rsp/rsp-pjc-c01/builds)
+CI Test Reults:
+
+* Travis CI:
+* GitLab CI: [![GitLab CI Build Status](https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg)](https://gitlab.com/rsp/rsp-pjc-c01/builds)
 
 Usage
 -
