@@ -1,6 +1,8 @@
 Rafał Pocztarski
 =
-Zadania z PJC, ćw. 1, 2016-10-02
+C++ Examples with CI Tests
+
+PJC C01, 2016-10-02:
 
 [zad1](#zad1),
 [zad2](#zad2),
