@@ -1,13 +1,11 @@
 Rafał Pocztarski
 =
+PJC C01, 2016-10-02
+-
 C++ Examples with CI Tests -
 [internal project](https://github.com/rsp/rsp-internal#readme)
-PJC C01, 2016-10-02:
-[z01](#z01),
-[z02](#z02),
-[z03](#z03),
-[z04](#z04),
-[z05](#z05)
+
+**[z01](#z01), [z02](#z02), [z03](#z03), [z04](#z04), [z05](#z05)**
 
 * **GitHub:** https://github.com/rsp/rsp-pjc-c01
 * **GitLab:** https://gitlab.com/rsp/rsp-pjc-c01 (private repo, ask for access)
@@ -22,7 +20,7 @@ Repos
 Test Results
 -
 * **Travis CI:** [![Travis CI Build Status][travis-img]][travis-url]
-* **GitLab CI:** [![GitLab CI Build Status][gitlab-ci]][gitlabci-url] (private repo, ask for access)
+* **GitLab CI:** [![GitLab CI Build Status][gitlabci-img]][gitlabci-url] (private repo, ask for access)
 
 Usage
 -
