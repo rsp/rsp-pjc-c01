@@ -79,8 +79,9 @@ Author
 [![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
 [pjc-url]: https://github.com/rsp/rsp-pjc#readme
-
 [github-url]: https://github.com/rsp/rsp-pjc-c01
+[issues-url]: https://github.com/rsp/rsp-pjc-c01/issues
+[gitlab-url]: https://gitlab.com/rsp/rsp-pjc-c01
 [travis-img]: https://travis-ci.org/rsp/rsp-pjc-c01.svg?branch=master
 [travis-url]: https://travis-ci.org/rsp/rsp-pjc-c01
 [gitlabci-img]: https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg
