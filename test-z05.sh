@@ -7,7 +7,7 @@ mkfifo -m 600 $zi
 zo=$(mktemp -u)
 mkfifo -m 600 $zo
 
-exec stdbuf -o0 ./zad5 < $zi | stdbuf -i0 -o0 tr '?' '\n' > $zo &
+exec stdbuf -o0 ./z05 < $zi | stdbuf -i0 -o0 tr '?' '\n' > $zo &
 p=$!
 
 exec 8< $zo 9> $zi
