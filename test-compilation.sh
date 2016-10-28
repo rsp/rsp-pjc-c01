@@ -42,4 +42,4 @@ echo OK
 echo z05 should build with no defines:
 $CXX -o z05-test z05.cc -Wall -Wfatal-errors -DENG -DPOL || fail
 echo OK
-rm z0?-test
+rm -v z0?-test
