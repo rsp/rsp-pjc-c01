@@ -7,15 +7,15 @@ C++ Examples with CI Tests -
 
 **[z01](#z01), [z02](#z02), [z03](#z03), [z04](#z04), [z05](#z05)**
 
-* **GitHub:** https://github.com/rsp/rsp-pjc-c01
-* **GitLab:** https://gitlab.com/rsp/rsp-pjc-c01 (private repo, ask for access)
-
-Repos
--
 [travis-img]: https://travis-ci.org/rsp/rsp-pjc-c01.svg?branch=master
 [travis-url]: https://travis-ci.org/rsp/rsp-pjc-c01
 [gitlabci-img]: https://gitlab.com/rsp/rsp-pjc-c01/badges/master/build.svg
 [gitlabci-url]: https://gitlab.com/rsp/rsp-pjc-c01/builds
+
+Repos
+-
+* **GitHub:** https://github.com/rsp/rsp-pjc-c01
+* **GitLab:** https://gitlab.com/rsp/rsp-pjc-c01 (private repo, ask for access)
 
 Test Results
 -
