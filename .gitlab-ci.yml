@@ -2,15 +2,15 @@ image: gcc
 
 build:
   stage: build
-  script: 
+  script:
     - make
   artifacts:
     paths:
-      - zad1
-      - zad2
-      - zad3
-      - zad4
-      - zad5
+      - z01
+      - z02
+      - z03
+      - z04
+      - z05
 
 test:
   stage: test
