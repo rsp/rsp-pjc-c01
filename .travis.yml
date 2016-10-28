@@ -9,7 +9,7 @@ addons:
     packages:
     - gcc-6
 install:
-- [ "$CXX" = g++ ] && export CXX=g++-6 CC=gcc-6
+- [ "$CXX" = "g++" ] && export CXX="g++-6" CC="gcc-6"
 script:
   - make
   - make test
