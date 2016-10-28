@@ -2,23 +2,23 @@ CC = g++
 
 CFLAGS  = -g -Wall -Wfatal-errors -DGETMAX -DGETMIN -DENG
 
-ALL = zad1 zad2 zad3 zad4 zad5
+ALL = z01 z02 z03 z04 z05
 
 all: $(ALL)
 
-zad1: zad1.cc
+zad1: z01.cc
 	$(CC) $(CFLAGS) -o $@ $@.cc
 
-zad2: zad2.cc
+zad2: z02.cc
 	$(CC) $(CFLAGS) -o $@ $@.cc
 
-zad3: zad3.cc
+zad3: z03.cc
 	$(CC) $(CFLAGS) -o $@ $@.cc
 
-zad4: zad4.cc
+zad4: z04.cc
 	$(CC) $(CFLAGS) -o $@ $@.cc
 
-zad5: zad5.cc
+zad5: z05.cc
 	$(CC) $(CFLAGS) -o $@ $@.cc
 
 clean:
