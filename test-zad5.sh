@@ -7,7 +7,7 @@ mkfifo -m 600 $zi
 zo=$(mktemp -u)
 mkfifo -m 600 $zo
 
-exec stdbuf -o0 ./guess < $zi | stdbuf -i0 -o0 tr '?' '\n' > $zo &
+exec stdbuf -o0 ./zad5 < $zi | stdbuf -i0 -o0 tr '?' '\n' > $zo &
 p=$!
 
 exec 8< $zo 9> $zi
@@ -20,7 +20,7 @@ n=-1
 while read a <&8; do
 n=${a//[^0-9]/}
 echo "$a"
-[[ $n -eq $m && $a =~ Your ]] && continue
+[[ $n -eq $m && $a =~ Pomyslana ]] && continue
 [ $n -eq $m ] && echo "($n - YES)" && echo y >&9
 [ $n -lt $m ] && echo "($n - too small)" && echo s >&9
 [ $n -gt $m ] && echo "($n - too big)" && echo b >&9
