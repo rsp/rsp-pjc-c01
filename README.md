@@ -36,7 +36,7 @@ Or via HTTPS:
 git clone https://github.com/rsp/rsp-pjc-c01.git
 # or:
 git clone https://gitlab.com/rsp/rsp-pjc-c01.git
-``
+```
 Or download a zip file:
 
 * https://github.com/rsp/rsp-pjc-c01/archive/master.zip
