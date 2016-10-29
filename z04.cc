@@ -1,3 +1,5 @@
+// PJC-C01/Z04 by Rafał Pocztarski - https://pocztarski.com/
+
 #include <iostream>
 
 #if defined(POL) == defined(ENG)

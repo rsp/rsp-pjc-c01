@@ -1,3 +1,5 @@
+// PJC-C01/Z03 by Rafał Pocztarski - https://pocztarski.com/
+
 #include <iostream>
 
 int main() {

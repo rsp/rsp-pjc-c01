@@ -1,3 +1,5 @@
+// PJC-C01/Z02 by Rafał Pocztarski - https://pocztarski.com/
+
 #include <iostream>
 
 #if !(defined(GETMAX) || defined(GETMIN))
