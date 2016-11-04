@@ -13,6 +13,13 @@ Programs
 -
 **[z01](#z01), [z02](#z02), [z03](#z03), [z04](#z04), [z05](#z05)**
 
+Build scripts
+-
+* [**Makefile**](Makefile)
+* [**test.sh**](test.sh)
+* [**.travis.yml**](.travis.yml)
+* [**.gitlab-ci.yml**](.gitlab-ci.yml)
+
 Repos
 -
 * **GitHub:** https://github.com/rsp/rsp-pjc-c01
